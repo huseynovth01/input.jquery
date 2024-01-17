@@ -1,0 +1,81 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #E8ECF1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #E8ECF1;
+}
+.container #firstform {
+  width: 550px;
+  padding: 20px;
+}
+.container #firstform .form-group {
+  position: relative;
+  background-color: transparent;
+}
+.container #firstform .form-group .form-control {
+  padding-left: 30px;
+  position: relative;
+  width: 370px;
+  height: 60px;
+  border-radius: 9px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.container #countryCode {
+  border-radius: 9px;
+}
+.container #phoneNumber {
+  width: 300px;
+  border-radius: 9px;
+}
+.container .phoneNumber {
+  margin-top: 30px;
+  font-weight: 100;
+  font-size: 14px;
+}
+.container label {
+  display: block;
+  margin-bottom: 8px;
+}
+.container .input-group {
+  display: flex;
+}
+.container .combined-input {
+  display: flex;
+}
+.container select, .container input {
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.container button {
+  background-color: #F45369;
+  color: #fff;
+  padding: 15px 80px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.container button:hover {
+  background-color: #aa2537;
+  transition: ease 0.6s;
+}/*# sourceMappingURL=style.css.map */
